@@ -30,6 +30,11 @@ function sayHello
     console.log("hello there");
 }
 
+//notice that function is called without using (), bcoz if we use (), the function will be called while
+//running the script only, and not wait for the event to respond. So, we PASSED a function as an input
+//so that it can be called at a later time.
+
+
 this is a normal declaration, we can also use anonymous function to directly call a function instead of passing 
 like
 
